@@ -33,3 +33,6 @@ jobs:
       - name: Build Docker Image
         run: |
           docker build -t unique-slug:latest .
+      - name: JFrog Docker Scan
+        run: |
+          jf docker scan unique-slug:latest --project=dk-docker
