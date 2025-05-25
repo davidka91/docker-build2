@@ -30,3 +30,6 @@ jobs:
           jf rt bag
           # Publish build info
           jf rt bp
+      - name: Build Docker Image
+        run: |
+          docker build -t unique-slug:latest .
