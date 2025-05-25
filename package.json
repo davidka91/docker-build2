@@ -1,0 +1,9 @@
+{
+  "name": "unique-slug-example",
+  "version": "1.0.0",
+  "description": "A simple project using unique-slug",
+  "main": "index.js",
+  "dependencies": {
+    "unique-slug": "5.0.0"
+  }
+}
